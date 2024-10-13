@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH","facb3d94c969531841dba366a516c07c")
 BOT_TOKEN = getenv("BOT_TOKEN","7205846279:AAGPnz5Yh4uG8fo9Q967DZG4NKQ7GJfdvD4")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Somesh:Somesh@somesh.0hbdzrv.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://EraMusic:EraMusic@era0music.9zhsns6.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1500))
 
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Percymusic/DXMUSIC",
+    "https://github.com/Percymusic/MUSICX",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
